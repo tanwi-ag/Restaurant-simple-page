@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width:80%;
+    margin:3% 10%;
+}
+h1{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.underline{
+    width:100px;
+    height:4px;
+    background-color: aquamarine;
+    margin-left: 600px;
+    margin-bottom: 10px;
+}
+.butttons{
+    width:900px;
+}
+.common{
+    width:100px;
+    height:30px;
+    border: 2px solid black;
+    background-color: azure;
+    border-radius: 3px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+#order{
+    float: right;
+    margin-right:60px;
+    background-color: gold;
+}
+#all{    
+    margin-left:410px;
+}
+.all-food{ 
+    display: grid; 
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:3rem;
+    margin-left:5px;
+}
+.food{
+    width:600px;
+    height:155px;   
+}
+
+.img1{
+    width:230px;
+    height:180px;
+    float: left;
+    margin-right:10px;
+    border-radius: 5px;
+}
+.name {
+    font-size:19px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(15, 15, 196);
+    font-weight: bold;
+}
+.underline-2{
+     width:300px;  
+    height:3px;
+    background-color: chocolate;
+    margin-bottom: 2px;
+    margin-left:230px;
+}
+span{
+    color: chocolate;
+}
+
+.info{
+    font-size: 18px;
+    color: rgb(12, 230, 238);
+}
+.quote {
+    text-align: center;
+    margin-top: 60px;
+}
+.add {
+    background-color: rgb(245, 206, 206);
+    cursor: pointer;
+}
+.remove{
+    background-color: snow;
+    cursor: pointer;
+}
